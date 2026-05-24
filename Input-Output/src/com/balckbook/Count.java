@@ -1,4 +1,4 @@
-package com.balckbook;
+package src.com.balckbook;
 
 import java.io.FileInputStream;
 import java.io.IOException;

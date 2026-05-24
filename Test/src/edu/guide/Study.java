@@ -1,4 +1,4 @@
-package edu.guide;
+package src.edu.guide;
 
 public class Study {
 

@@ -1,4 +1,4 @@
-package edu.javatpoint;
+package src.edu.javatpoint;
 
 /*
 Example of interrupting thread that behaves normally:

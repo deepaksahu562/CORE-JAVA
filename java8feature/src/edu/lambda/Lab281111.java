@@ -1,4 +1,4 @@
-package edu.lambda;
+package src.edu.lambda;
 
 @FunctionalInterface // It is optional
 interface Drawable {

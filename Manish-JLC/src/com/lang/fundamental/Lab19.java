@@ -1,4 +1,4 @@
-package com.lang.fundamental;
+package src.com.lang.fundamental;
 
 public class Lab19 {
 	public static void main(String[] args) {

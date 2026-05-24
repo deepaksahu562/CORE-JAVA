@@ -1,4 +1,4 @@
-package com.java15;
+package src.com.java15;
 
 public class Test2 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package edu.prectice;
+package src.edu.prectice;
 
 import java.util.ArrayList;
 import java.util.HashMap;

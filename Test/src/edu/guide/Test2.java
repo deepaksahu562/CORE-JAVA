@@ -1,4 +1,4 @@
-package edu.guide;
+package src.edu.guide;
 
 import java.util.Arrays;
 import java.util.HashSet;

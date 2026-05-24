@@ -1,4 +1,4 @@
-package edu.method_references;
+package src.edu.method_references;
 
 interface Sayable201121 {
 	void say();

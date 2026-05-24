@@ -1,4 +1,4 @@
-package com.stream;
+package src.com.stream;
 import java.io.*;
 
 class EmpData

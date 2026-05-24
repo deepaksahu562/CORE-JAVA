@@ -1,4 +1,4 @@
-package edu.ivq.test;
+package src.edu.ivq.test;
 
 public class Test1 {
 

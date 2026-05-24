@@ -1,4 +1,4 @@
-package edu.inv;
+package src.edu.inv;
 
 //Given an Array and a Number N, find the pairs in an array which sum would be N. No Duplicates.
 

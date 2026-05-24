@@ -1,4 +1,4 @@
-package edu.object;
+package src.edu.object;
 
 public class Lab1006 {
 	

@@ -1,4 +1,4 @@
-package com.test;
+package src.com.test;
 
 
 //Give the commend line value

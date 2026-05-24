@@ -1,4 +1,4 @@
-package edu.ivq.test;
+package src.edu.ivq.test;
 // v v IMP
 public class Test3 {
 	

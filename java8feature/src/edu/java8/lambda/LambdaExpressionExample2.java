@@ -1,4 +1,4 @@
-package edu.java8.lambda;
+package src.edu.java8.lambda;
 
 //@FunctionalInterface // It is optional
 interface Drawable {

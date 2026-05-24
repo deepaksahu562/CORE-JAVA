@@ -1,4 +1,4 @@
-package edu.inv;
+package src.edu.inv;
 
 import java.util.ArrayList;
 import java.util.List;

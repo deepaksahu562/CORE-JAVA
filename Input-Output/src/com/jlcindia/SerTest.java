@@ -1,4 +1,4 @@
-package com.jlcindia;
+package src.com.jlcindia;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

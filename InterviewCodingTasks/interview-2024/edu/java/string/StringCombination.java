@@ -1,4 +1,4 @@
-package edu.java.string;
+package src.edu.java.string;
 
 import java.util.HashSet;
 import java.util.Set;

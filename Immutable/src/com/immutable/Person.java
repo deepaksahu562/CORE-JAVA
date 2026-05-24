@@ -1,4 +1,4 @@
-package com.immutable;
+package src.com.immutable;
 
 public class Person {
 

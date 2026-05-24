@@ -1,4 +1,4 @@
-package edu.javatpoint;
+package src.edu.javatpoint;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

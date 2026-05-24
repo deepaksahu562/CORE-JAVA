@@ -1,4 +1,4 @@
-package edu.javatpoint;
+package src.edu.javatpoint;
 
 /*
 Example of interrupting a thread that stops working:-

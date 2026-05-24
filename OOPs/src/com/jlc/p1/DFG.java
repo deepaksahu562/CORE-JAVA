@@ -1,4 +1,4 @@
-package com.jlc.p1;
+package src.com.jlc.p1;
 
 
 public class DFG{

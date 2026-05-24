@@ -1,4 +1,4 @@
-package edu.method_references;
+package src.edu.method_references;
 
 interface Messageable {
 	Message getMessage(String msg);

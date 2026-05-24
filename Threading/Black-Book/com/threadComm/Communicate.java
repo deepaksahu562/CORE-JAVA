@@ -1,4 +1,4 @@
-package com.threadComm;
+package src.com.threadComm;
 class Communicate
 {
 	public static void main(String args[])throws Exception

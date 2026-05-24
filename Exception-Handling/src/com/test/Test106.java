@@ -1,4 +1,4 @@
-package com.test;
+package src.com.test;
 import java.io.*;
 
 public class Test106

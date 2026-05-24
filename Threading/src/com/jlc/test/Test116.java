@@ -1,4 +1,4 @@
-package com.jlc.test;
+package src.com.jlc.test;
 class Hello
 {
 	synchronized void m1()

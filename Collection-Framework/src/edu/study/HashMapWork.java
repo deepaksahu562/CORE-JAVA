@@ -1,4 +1,4 @@
-package edu.study;
+package src.edu.study;
 
 import java.util.HashMap;
 import java.util.Map;

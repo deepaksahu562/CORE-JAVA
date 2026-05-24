@@ -1,4 +1,4 @@
-package com.jlcindia;
+package src.com.jlcindia;
 public class Lab25 {
 
 	public static void main(String[] args) {

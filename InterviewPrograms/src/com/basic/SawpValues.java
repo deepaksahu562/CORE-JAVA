@@ -1,4 +1,4 @@
-package com.basic;
+package src.com.basic;
 
 public class SawpValues {
 

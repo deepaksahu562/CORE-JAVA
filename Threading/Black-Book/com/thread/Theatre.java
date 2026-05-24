@@ -1,4 +1,4 @@
-package com.thread;
+package src.com.thread;
 class MyThread implements Runnable
 {
 	String str;

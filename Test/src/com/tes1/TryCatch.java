@@ -1,4 +1,4 @@
-package com.tes1;
+package src.com.tes1;
 
 public class TryCatch {
 

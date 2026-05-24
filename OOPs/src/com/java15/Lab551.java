@@ -1,4 +1,4 @@
-package com.java15;
+package src.com.java15;
 
 public class Lab551 {
 	public static void main(String[] args) {

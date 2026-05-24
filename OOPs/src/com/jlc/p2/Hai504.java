@@ -1,4 +1,4 @@
-package com.jlc.p2;
+package src.com.jlc.p2;
 
 import com.jlc.p1.Hello504;
 

@@ -1,4 +1,4 @@
-package com.test;
+package src.com.test;
 class Hello
 {
 	int m1(int i)

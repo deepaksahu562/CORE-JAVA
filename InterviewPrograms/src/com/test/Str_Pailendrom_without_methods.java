@@ -1,4 +1,4 @@
-package com.test;
+package src.com.test;
 
 public class Str_Pailendrom_without_methods {
 

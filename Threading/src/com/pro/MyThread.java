@@ -1,4 +1,4 @@
-package com.pro;
+package src.com.pro;
 
 public class MyThread extends Thread{
 	

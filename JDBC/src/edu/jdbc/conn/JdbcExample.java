@@ -1,4 +1,4 @@
-package edu.jdbc.conn;
+package src.edu.jdbc.conn;
 
 import java.sql.Connection;  
 import java.sql.DriverManager;  

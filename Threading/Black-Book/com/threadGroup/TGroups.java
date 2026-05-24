@@ -1,4 +1,4 @@
-package com.threadGroup;
+package src.com.threadGroup;
 class TGroups
 {
 	public static void main(String args[])

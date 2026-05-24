@@ -1,4 +1,4 @@
-package com.operator;
+package src.com.operator;
 
 public class Lab133 {
 

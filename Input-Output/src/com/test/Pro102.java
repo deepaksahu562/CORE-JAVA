@@ -1,4 +1,4 @@
-package com.test;
+package src.com.test;
 
 import java.io.PrintStream;
 import java.io.PrintWriter;

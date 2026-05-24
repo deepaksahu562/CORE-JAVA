@@ -1,4 +1,4 @@
-package com.test;
+package src.com.test;
 
 public interface MyInterFace extends Runnable,Cloneable{
 

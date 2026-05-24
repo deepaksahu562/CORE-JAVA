@@ -1,4 +1,4 @@
-package edu.guide;
+package src.edu.guide;
 
 public class Test {
 	public static void main(String[] args) {

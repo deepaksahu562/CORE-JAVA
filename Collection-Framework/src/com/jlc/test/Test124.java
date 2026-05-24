@@ -1,4 +1,4 @@
-package com.jlc.test;
+package src.com.jlc.test;
 import java.util.*;
 
 public class Test124 {

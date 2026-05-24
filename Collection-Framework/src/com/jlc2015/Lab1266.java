@@ -1,4 +1,4 @@
-package com.jlc2015;
+package src.com.jlc2015;
 
 import java.util.LinkedHashSet;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package com.threadSef;
+package src.com.threadSef;
 class Reserve implements Runnable
 {
 	int available=1;

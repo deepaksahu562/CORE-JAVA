@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.jlc2015;
+package src.com.jlc2015;
 
 /**
  * @author Deepak

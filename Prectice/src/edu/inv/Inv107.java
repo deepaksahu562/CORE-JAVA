@@ -1,4 +1,4 @@
-package edu.inv;
+package src.edu.inv;
 
 import java.util.*;
 import java.util.stream.Collectors;

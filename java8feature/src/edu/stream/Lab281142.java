@@ -1,4 +1,4 @@
-package edu.stream;
+package src.edu.stream;
 
 public class Lab281142 {
 

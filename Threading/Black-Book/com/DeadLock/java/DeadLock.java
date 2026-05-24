@@ -1,4 +1,4 @@
-package com.DeadLock.java;
+package src.com.DeadLock.java;
 class BookTicket extends Thread
 {	
 	//Object train,comp;

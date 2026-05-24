@@ -1,4 +1,4 @@
-package com.jlcindia;
+package src.com.jlcindia;
 
 class Stack{
 	int x;

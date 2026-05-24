@@ -1,4 +1,4 @@
-package com.test;
+package src.com.test;
 
 public class Near100 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package edu.stream;
+package src.edu.stream;
 //Stream API Wipro traning
 
 import java.util.ArrayList;

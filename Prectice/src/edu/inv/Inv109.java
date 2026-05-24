@@ -1,4 +1,4 @@
-package edu.inv;
+package src.edu.inv;
 
 public class Inv109 {
 

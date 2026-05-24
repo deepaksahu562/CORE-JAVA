@@ -1,4 +1,4 @@
-package edu.prectice;
+package src.edu.prectice;
 
 public class StrRepeatCount {
 

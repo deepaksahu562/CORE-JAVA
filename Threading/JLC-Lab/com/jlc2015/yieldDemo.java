@@ -1,4 +1,4 @@
-package com.jlc2015;
+package src.com.jlc2015;
 
 //Java program to illustrate yield() method 
 //in Java 

@@ -1,4 +1,4 @@
-package com.java15;
+package src.com.java15;
 
 public class Lab1081 {
 

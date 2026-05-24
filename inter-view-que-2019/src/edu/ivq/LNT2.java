@@ -1,4 +1,4 @@
-package edu.ivq;
+package src.edu.ivq;
 
 public class LNT2 {
 

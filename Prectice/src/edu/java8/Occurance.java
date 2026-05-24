@@ -1,4 +1,4 @@
-package edu.java8;
+package src.edu.java8;
 
 import java.util.function.Function;
 import java.util.stream.Collectors;

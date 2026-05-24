@@ -1,4 +1,4 @@
-package edu.lambda;
+package src.edu.lambda;
 
 interface Sayable {
 	public String say();

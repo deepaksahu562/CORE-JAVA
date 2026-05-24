@@ -1,4 +1,4 @@
-package edu.javatpoint;
+package src.edu.javatpoint;
 
 public class DeadLock {
 

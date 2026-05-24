@@ -1,4 +1,4 @@
-package com.balckbook;
+package src.com.balckbook;
 
 public class TiketBook{
 	public static void main(String[] args) {

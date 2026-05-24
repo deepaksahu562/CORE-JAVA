@@ -1,4 +1,4 @@
-package com.overriding.test;
+package src.com.overriding.test;
 
 public class Calculate {
 

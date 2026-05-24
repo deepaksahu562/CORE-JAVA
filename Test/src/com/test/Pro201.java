@@ -1,4 +1,4 @@
-package com.test;
+package src.com.test;
 
 public class Pro201 {
 	static Object ob1;

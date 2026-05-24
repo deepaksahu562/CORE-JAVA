@@ -1,4 +1,4 @@
-package com.java15;
+package src.com.java15;
 
 class A{
 	static int X = 90;

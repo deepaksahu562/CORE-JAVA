@@ -1,4 +1,4 @@
-package com.test;
+package src.com.test;
 
 public class StrRev_Char {
 	 public static void main(String arg[]) {

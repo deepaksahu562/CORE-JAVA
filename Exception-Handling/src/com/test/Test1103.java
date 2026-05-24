@@ -1,4 +1,4 @@
-package com.test;
+package src.com.test;
 class Test1103
 {
 	public static void main(String args[])

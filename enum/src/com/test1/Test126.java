@@ -1,4 +1,4 @@
-package com.test1;
+package src.com.test1;
 
 import com.test1.Hello.Course;
 

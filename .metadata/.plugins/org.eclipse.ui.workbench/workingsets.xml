@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1665205418521_1" label="interview-tasks" name="interview-tasks">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/errorwithpriority" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/refactoring" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/counter" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/interview-tasks" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/person" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/optimization" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/converter" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/billingaccount" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/threadpriority" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1656661053164_0" label="Window Working Set" name="Aggregate for window 1656661053163"/>
+</workingSetManager>

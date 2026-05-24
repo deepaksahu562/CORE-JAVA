@@ -1,0 +1,33 @@
+package edu.object;
+
+public class Lab1001 {
+
+	public static void main(String[] args) {
+
+		Student1001 st1 = new Student1001(99, 23232333);
+		Student1001 st2 = new Student1001(99, 23232333);
+		Student1001 st3 = new Student1001(88, 55665533);
+		Student1001 st4 = st1;
+		
+		System.out.println(st1.hashCode());
+		System.out.println(st2.hashCode());
+		System.out.println(st3.hashCode());
+		System.out.println(st4.hashCode());
+		
+		System.out.println(st1 == st2);
+		System.out.println(st1 == st4);
+	}
+
+}
+
+class Student1001{
+	int sid;
+	long phone;
+
+	public Student1001(int sid, long phone) {
+		super();
+		this.sid = sid;
+		this.phone = phone;
+	}
+
+}

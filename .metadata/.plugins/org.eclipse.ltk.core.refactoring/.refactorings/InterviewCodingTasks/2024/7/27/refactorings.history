@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;edu.java8.string&apos; to &apos;edu.java.string&apos;&#x0D;&#x0A;- Original project: &apos;InterviewCodingTasks&apos;&#x0D;&#x0A;- Original element: &apos;InterviewCodingTasks/interview-2024/edu.java8.string&apos;&#x0D;&#x0A;- Renamed element: &apos;InterviewCodingTasks/interview-2024/edu.java.string&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;edu.java8.string&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/interview-2024&lt;edu.java8.string" name="edu.java.string" qualified="false" references="true" stamp="1720185793389" textual="false" version="1.0"/>
+</session>

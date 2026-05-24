@@ -1,0 +1,16 @@
+package com.jlc2015;
+
+public class Lab1228 {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class Student1228{
+	
+	public Student1228() {
+		throw new NullPointerException();
+	}
+}

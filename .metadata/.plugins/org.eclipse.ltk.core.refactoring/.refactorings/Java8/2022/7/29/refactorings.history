@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;edu.java8.lambda&apos; to &apos;java8feature/src&apos;&#x0D;&#x0A;- Original project: &apos;Java8&apos;&#x0D;&#x0A;- Destination element: &apos;java8feature/src&apos;&#x0D;&#x0A;- Original element: &apos;Java8/src/edu.java8.lambda&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=java8feature/src" element1="/src&lt;edu.java8.lambda" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1657478095873" version="1.0"/>
+</session>

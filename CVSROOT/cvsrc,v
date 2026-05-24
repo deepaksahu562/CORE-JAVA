@@ -1,0 +1,25 @@
+head     1.1;
+access   ;
+symbols ;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2013.12.01.13.48.41;  author Administrator;  state Exp;
+branches;
+next     ;
+deltatype   text;
+permissions	644;
+
+desc
+@@
+
+
+
+1.1
+log
+@initial checkin@
+text
+@@
+

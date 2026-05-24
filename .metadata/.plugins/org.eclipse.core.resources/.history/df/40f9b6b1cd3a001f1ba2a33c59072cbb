@@ -1,0 +1,29 @@
+package edu.java8.string;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class StringCombination {
+
+	public static void main(String[] args) {
+		
+		String[] argss = { "hello" };
+		for (String input : args) {
+			char[] charArray = input.toCharArray();
+			Set<String> set = new HashSet<>();
+			for (int j = 0; j <= charArray.length; j++) {
+				String newStr = String.valueOf(charArray[j]);
+				for (int i = 0; i <= charArray.length; i++) {
+					if (j == i) {
+						// ignore
+					} else {
+						newStr.concat(String.valueOf(charArray[i]));
+					}
+				}
+				set.add(newStr);
+			}
+			System.out.println(set);
+		}
+		System.out.println("Hello world !!");
+	}
+}

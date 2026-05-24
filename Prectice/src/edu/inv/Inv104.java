@@ -1,0 +1,26 @@
+package edu.inv;
+
+import java.util.stream.Collectors;
+
+public class Inv104 {
+
+	public static void main(String[] args) {
+		
+		Operation op = (a,b) -> a+b;
+		int value = op.sum(10, 20);
+		System.out.println(value);
+		
+		
+		// salary >10K
+		
+		//List list = empList.stream().filter(emp -> emp.getSalary() > 200000 && emp.getName.startIgnoreCaseWith('G')).collect(Collectors.toList());
+		
+	}
+}
+
+@FunctionalInterface
+interface Operation{
+	
+	int sum(int a, int b);
+	
+}

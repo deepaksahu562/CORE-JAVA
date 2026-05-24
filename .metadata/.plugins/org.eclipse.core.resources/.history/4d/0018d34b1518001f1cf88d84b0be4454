@@ -1,0 +1,25 @@
+package jlc.pro;
+
+public class Pro4024 {
+
+	public static void main(String[] args) {
+		C ref = new C();
+		ref.x = 98;
+		System.out.println(ref.x);
+	}
+}
+
+
+class A{
+	int x = 99;
+}
+
+class B extends A{
+	String x ="India";
+}
+
+class C extends B{
+	//float x = 11.1f;
+	String x ="Indore";
+	
+}

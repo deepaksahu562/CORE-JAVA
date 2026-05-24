@@ -1,0 +1,33 @@
+package com.jlc2015;
+import java.util.*;
+public class Lab1258 {
+
+	public static void main(String[] args) {
+		List list = new ArrayList();
+		list.add(101);
+		list.add("Deepak");
+		list.add("Shahdol");
+		list.add("MP");
+		list.add(6.5);
+		
+		System.out.println(list);
+		//ListIterator it = list.listIterator(2);
+		ListIterator it = list.listIterator();
+		while (it.hasNext()) {
+			int i = it.nextIndex(); 
+			Object object = (Object) it.next();
+			System.out.println(i+"\t"+object);
+			/*if(object.equals("Shahdol"))
+				it.remove();*/
+			
+		}
+		System.out.println(" - - - - - - - -");
+		while (it.hasPrevious()) {
+			int i = it.previousIndex();
+			Object object = (Object) it.previous();
+			System.out.println(i+"\t"+object);
+		}
+		
+		System.out.println(list);
+	}
+}

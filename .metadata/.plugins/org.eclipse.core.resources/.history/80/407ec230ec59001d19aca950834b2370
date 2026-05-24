@@ -1,0 +1,24 @@
+package edu.inv;
+
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class Inv108 {
+
+	public static void main(String[] args) {
+		
+		String str = "Deepak";
+		
+		char charArr [] = str.toCharArray();
+		
+		
+		
+		//Stream.of(charArr).map(cha -> cha).forEach(System.out::println);
+		
+		
+		
+		
+	}
+	
+}

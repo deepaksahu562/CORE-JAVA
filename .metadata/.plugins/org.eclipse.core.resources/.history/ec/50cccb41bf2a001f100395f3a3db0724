@@ -1,0 +1,26 @@
+package com.jlc2015;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		System.out.println(new Test().test());
+	}
+	
+	public int test(){
+		try {
+			//return 10;
+			//throw new Error();
+			//throw new Exception();
+			throw new Throwable();
+		}/*catch (Exception e) {
+			return 20;
+		}catch (Error e) {
+			return 30;
+		}*/catch (Throwable e) {
+			return 40;
+		}
+	}
+}
+
+

@@ -1,0 +1,40 @@
+package edu.inv;
+
+public class Inv102 {
+
+	public static void main(String[] args) {
+		
+		String str = "throot";
+		char [] chr = str.toCharArray();
+
+		boolean flag = false;
+		int count = 0;
+		//char finalChar = '';
+		char finalChar = ' ';
+		for(char ch1 : chr){
+			//int count = 0;
+			for(char ch2 : chr){
+				if(ch1==ch2){
+					if(count == 2){
+						finalChar = ' ';
+						count = 0;
+						flag = false;
+						break;
+					} 
+					count++;
+					finalChar = ch1;
+					flag = true;
+				}
+				
+			}
+			if(count == 1 && flag == true){
+				System.out.println(finalChar);
+				flag = false;
+				break;
+			}
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package edu.inv;
+
+
+public class Inv107 {
+
+	public static void main(String[] args) {}
+	
+}

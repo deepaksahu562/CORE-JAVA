@@ -1,14 +1,40 @@
 package src.com.interview.program;
 
+import java.util.Arrays;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class FirstNonRepeatingChar {
     public static void main(String[] args) {
         String input = "aabbcddeffg";
+        //program(input);
+        programWithDraived(input);
+    }
 
+
+    public static void programWithDraived(String input){
+        LinkedHashMap<Character, Long> result = input.chars() // IntStream of character codes
+                .mapToObj(c -> (char) c) // Convert to Character stream
+                .collect(Collectors.groupingBy(
+                        Function.identity(),
+                        LinkedHashMap::new, // maintain insertion order
+                        Collectors.counting()
+                ));
+        System.out.println(result);
+
+        Character[] charsArray = {'a','b'};
+        Stream charsArray1 = Stream.of(charsArray);
+        charsArray1.forEach(System.out::println);
+
+
+    }
+
+    public static void program(String input){
         Character result = input.chars() // IntStream of character codes
                 .mapToObj(c -> (char) c) // Convert to Character stream
                 .collect(Collectors.groupingBy(
@@ -30,3 +56,4 @@ public class FirstNonRepeatingChar {
         }
     }
 }
+

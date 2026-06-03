@@ -7,8 +7,10 @@ interface Interaf281151{
 public class Lab281151 {
     int a = 888;
     int b = 555;
-    public void display(){
 
+    public void display(){
+        int c = 222;
+        // int a = 666;
         // with anonymous inner class
         System.out.println("------- with anonymous inner class ---------");
         Interaf281151 interaf281151 = new Interaf281151() {
@@ -18,6 +20,7 @@ public class Lab281151 {
                 System.out.println(this.a);
                 //System.out.println(this.b);
                 System.out.println(a);
+                //c = c + 1;
             }
         } ;
         interaf281151.war();
@@ -29,6 +32,7 @@ public class Lab281151 {
             System.out.println(this.a);
             System.out.println(this.b);
             System.out.println(a);
+            //c = c+1;
         };
         interaf2811511a.war();
     }

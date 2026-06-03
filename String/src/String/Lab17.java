@@ -1,4 +1,4 @@
-package String;
+package src.String;
 
 public class Lab17 {
 

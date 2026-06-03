@@ -12,11 +12,18 @@ interface Showable281103 {
 	void show(String msg); // abstract method
 }
 
+/*@FunctionalInterface
 interface Doable281103{  
     default void doIt(){  
         System.out.println("Do it now");  
     }  
-}  
+}  */
+
+interface Doable281103{
+    default void doIt(){
+        System.out.println("Do it now");
+    }
+}
 
 @FunctionalInterface
 interface Display281103{
@@ -30,14 +37,14 @@ interface Display281103{
  * // Walkable281103 is not a functional interface
  * @FunctionalInterface 
  * interface Walkable281103 extends Showable281103{ 
- * 		void doIt(); 
+ * 		void doSomething();
  * }
  */
 
 
   @FunctionalInterface
   interface Walkable281103 extends Showable281103{
-  		//void doIt();
+  		//void doSomething();
   }
 
 

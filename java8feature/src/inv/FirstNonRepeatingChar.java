@@ -1,19 +1,16 @@
-package src.com.interview.program;
+package src.inv;
 
-import java.util.Arrays;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class FirstNonRepeatingChar {
     public static void main(String[] args) {
         String input = "aabbcddeffg";
-        //program(input);
-        programWithDraived(input);
+        program(input);
+        //programWithDraived(input);
     }
 
 

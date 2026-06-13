@@ -5,10 +5,10 @@ public class Lab1002 {
 
 	public static void main(String[] args) {
 
-		Student1001 st1 = new Student1001(99, 23232333);
-		Student1001 st2 = new Student1001(99, 23232333);
-		Student1001 st3 = new Student1001(88, 55665533);
-		Student1001 st4 = st1;
+		Student1002 st1 = new Student1002(99, 23232333);
+		Student1002 st2 = new Student1002(99, 23232333);
+		Student1002 st3 = new Student1002(88, 55665533);
+		Student1002 st4 = st1;
 		
 		System.out.println(st1.hashCode());
 		System.out.println(st2.hashCode());
@@ -17,6 +17,9 @@ public class Lab1002 {
 		
 		System.out.println(st1 == st2);
 		System.out.println(st1 == st4);
+
+		System.out.println("========");
+		System.out.println(st2);
 	}
 
 }
@@ -35,4 +38,11 @@ class Student1002{
 		return (int)(phone | sid);
 	}
 
+	/*@Override
+	public String toString() {
+		return "Student1002{" +
+				"sid=" + sid +
+				", phone=" + phone +
+				'}';
+	}*/
 }

@@ -1,8 +1,8 @@
 package src.com.tes1;
 
-import com.test.Demo;
+import src.com.test2.Demo;
 
-public class Info extends Demo{
+public class Info extends Demo {
 	public void display(){
 		System.out.println(show());
 	}

@@ -1,4 +1,4 @@
-package INW_ProGs;
+package src.INW_ProGs;
 
 public class String_Pailendrom {
 

@@ -1,8 +1,8 @@
 package src.edu.interface_default_static;
 
-interface MyInterface {
+interface MyInterface1 {
 	default void newMethod() {
-		System.out.println("Newly added default method");
+		System.out.println("Newly added default method MyInterface1");
 	}
 	void existingMethod(String str);
 	public boolean equals(Object obj); //Object class methods
@@ -10,12 +10,12 @@ interface MyInterface {
 
 interface MyInterface2 {
 	default void newMethod() {
-		System.out.println("Newly added default method");
+		System.out.println("Newly added default method MyInterface2");
 	}
 	void disp(String str);
 }
 
-public class Lab281133 implements MyInterface, MyInterface2 {
+public class Lab281133 implements MyInterface1, MyInterface2 {
 	// implementing abstract methods
 	public void existingMethod(String str) {
 		System.out.println("String is: " + str);
@@ -24,7 +24,8 @@ public class Lab281133 implements MyInterface, MyInterface2 {
 		System.out.println("String is: " + str);
 	}
 	// Implementation of duplicate default method
-	public void newMethod() {
+	@Override
+	public void newMethod() { // try with remove this method
 		System.out.println("Implementation of default method");
 	}
 	public static void main(String[] args) {

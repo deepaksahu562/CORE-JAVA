@@ -1,6 +1,8 @@
 package src.com.jlc2015;
 
 
+import java.util.Arrays;
+
 public class Lab1001 {
 
 	public static void main(String[] args) {
@@ -14,9 +16,19 @@ public class Lab1001 {
 		System.out.println(st2.hashCode());
 		System.out.println(st3.hashCode());
 		System.out.println(st4.hashCode());
+		System.out.println(st4.toString());
 		
 		System.out.println(st1 == st2);
 		System.out.println(st1 == st4);
+
+		System.out.println("===================");
+
+		Class<? extends Student1001> aClass = st1.getClass();
+		System.out.println(aClass);
+		System.out.println(aClass.getName());
+		System.out.println(Arrays.toString(aClass.getDeclaredMethods()));
+		System.out.println(aClass.getCanonicalName());
+		System.out.println(Arrays.toString(aClass.getConstructors()));
 	}
 
 }

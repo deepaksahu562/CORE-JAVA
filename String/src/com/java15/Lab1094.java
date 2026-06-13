@@ -12,7 +12,10 @@ public class Lab1094 {
 		System.out.println(str1.equals(str2));
 		System.out.println(str1);
 		System.out.println(sb+"hi");
-		
+
+		//sb.append(null);
+
+
 	}
 
 }

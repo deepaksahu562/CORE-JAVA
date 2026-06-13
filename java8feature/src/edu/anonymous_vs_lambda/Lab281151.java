@@ -20,7 +20,7 @@ public class Lab281151 {
                 System.out.println(this.a);
                 //System.out.println(this.b);
                 System.out.println(a);
-                //c = c + 1;
+                //c = c + 1; //Variable 'c' is accessed from within inner class, needs to be final or effectively final
             }
         } ;
         interaf281151.war();
@@ -32,7 +32,7 @@ public class Lab281151 {
             System.out.println(this.a);
             System.out.println(this.b);
             System.out.println(a);
-            //c = c+1;
+            //c = c+1; //Variable 'c' is accessed from within inner class, needs to be final or effectively final
         };
         interaf2811511a.war();
     }

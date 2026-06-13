@@ -1,4 +1,4 @@
-package StringBuffer;
+package src.StringBuffer;
 
 public class Lab20 {
 

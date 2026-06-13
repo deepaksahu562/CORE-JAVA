@@ -16,8 +16,8 @@ public class Lab201125 {
             System.out.println(x);
             System.out.println(y);
             System.out.println(this.x);
-            //y=999;
-            //m=111;
+            //y=999; //Variable used in lambda expression should be final or effectively fina
+            //m=111; //Variable used in lambda expression should be final or effectively fina
         };
         infra.show();
     }

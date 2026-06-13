@@ -5,12 +5,14 @@ public class Lab1081 {
 
 	public static void main(String[] args) {
 		StringBuilder sb = new StringBuilder("JLC");
-		//sb.append("WELCOME");
-		//sb.append(234.6765);
-		//sb.append(true);
+
+		/*sb.append("WELCOME");
+		sb.append(234.6765);
+		sb.append(true);
 		//sb.setLength(2);
-		//System.out.println(sb.capacity());
-		//sb.ensureCapacity(-2);
+		System.out.println(sb.capacity());
+		sb.ensureCapacity(-2);
+		//sb.ensureCapacity(2);*/
 		
 		System.out.println(sb);
 		System.out.println("L : "+sb.length());
@@ -22,6 +24,11 @@ public class Lab1081 {
 		StringBuilder sb2 = new StringBuilder("A");
 		
 		System.out.println(sb1.equals(sb2));
+		System.out.println(sb1.toString().equals(sb2.toString()));
+
+		sb.trimToSize();
+		System.out.println("L : "+sb.length());
+		System.out.println("C : "+sb.capacity());
 	}
 
 }
